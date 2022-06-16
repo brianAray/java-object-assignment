@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [suite]">
+  <test thread-count="5" verbose="0" name="Animal test(failed)">
+    <classes>
+      <class name="com.revature.dev.AnimalTest">
+        <methods>
+          <include name="testDuplicateAnimalCheck"/>
+          <include name="testValidAnimalCreated"/>
+          <include name="setup"/>
+          <include name="testAnimalSpeakMethod"/>
+        </methods>
+      </class> <!-- com.revature.dev.AnimalTest -->
+    </classes>
+  </test> <!-- Animal test(failed) -->
+</suite> <!-- Failed suite [suite] -->
